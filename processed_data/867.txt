@@ -1,0 +1,1 @@
+[['Ma', 'ma'], ['said'], ['Do'], ["n't"], ['Trust'], ['Them'], ['Do'], ["n't"], ['Trust'], ['Them'], [','], ['Do'], ["n't"], ['Trust'], ['Them'], ['Do'], ["n't"], ['Trust'], ['Them'], ['Do'], ["n't"], [','], ['no'], ['ma', 'ma'], ['said'], ['Do'], ["n't"], ['Trust'], ['Them'], ['Do'], ["n't"], [','], ['do'], ["n't"], [','], ['do'], ["n't"], ['Trust']]
