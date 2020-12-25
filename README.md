@@ -10,7 +10,7 @@
 	* Generation of Hip-Hop Lyrics with Hierarchical Modeling and Conditional Templates: https://www.aclweb.org/anthology/W19-8638.pdf
 	* Generating Drake Rap Lyrics using Language Models and LSTMs: https://towardsdatascience.com/generating-drake-rap-lyrics-using-language-models-and-lstms-8725d71b1b12
 
-## Tdodo
+## Todo
 0. Learn about Lyric Generation
 1. Decide on implementation
 2. Pre process data
