@@ -10,8 +10,8 @@
 	* Generation of Hip-Hop Lyrics with Hierarchical Modeling and Conditional Templates: https://www.aclweb.org/anthology/W19-8638.pdf
 	* Generating Drake Rap Lyrics using Language Models and LSTMs: https://towardsdatascience.com/generating-drake-rap-lyrics-using-language-models-and-lstms-8725d71b1b12
 
-# Tdodo
-
+## Tdodo
+0. Learn about Lyric Generation
 1. Decide on implementation
 2. Pre process data
 3. Build Lyric Generation Model 
@@ -21,7 +21,12 @@
 	* Todo item 4
 	* Update these later
 4. Learn about deep fake voice 
-5. Build-Implement Deep Fake Voice Model
-6. Connect Lyric model to Voice Model
+5. Decide on voice implementation
+6. Build-Implement Deep Fake Voice Model
+	* Todo item 1
+	* Todo item 2
+	* Todo item 3
+	* Update these later
+7. Connect Lyric model to Voice Model
 
 
