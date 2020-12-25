@@ -12,6 +12,12 @@ genius.verbose = False
 genius.remove_section_headers = True
 genius.skip_non_songs = True
 
+'''
+From genius api grabs a certain number of Juice WRLD lyrics 
+
+input: int or None 
+'''
+
 def get_lyrics(number_of_songs):
     try:
         songs  = (genius.search_artist("Juice WRLD", max_songs = number_of_songs, )).songs
@@ -24,7 +30,10 @@ def get_lyrics(number_of_songs):
         print("Some Random Error")
 
 '''
-def pre_processing():
+Preoprocesses ./data/ using ucto tokenizer, tokenizes into syllables
+From ./data/ -> ./proc_data/
+'''
+def ucto_pre_processing():
 
     files = glob.glob("./data/*.txt")
     
@@ -32,21 +41,4 @@ def pre_processing():
         startFile = "data/" + os.path.basename(f)
         endFile = "proc_data/" + os.path.basename(f)
         subprocess.call(["ucto", "-L", "eng", startFile, endFile])
-'''
-def pre_processing():
-
-    files = glob.glob("./data/*.txt")
-
-    for f in files:
-
-        file_content = open(f).read()
-        
-        SSP = SyllableTokenizer()
-        tokens = [SSP.tokenize(token) for token in word_tokenize(file_content)]
-    
-        with open("processed_data/" + os.path.basename(f),"w") as endFile:
-            endFile.write(str(tokens))
-
-        print(str(f) + " Done")
-pre_processing()
 
